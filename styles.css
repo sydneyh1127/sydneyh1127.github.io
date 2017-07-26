@@ -10,6 +10,17 @@ body{
   height: 100vh;
 }
 
+#darksunrise{
+  background-image:url(https://thumbs.dreamstime.com/t/beautiful-sunset-sunrise-over-dark-mountain-panorama-silhouette-65010305.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+
   background-image:url(C:\Users\Admin\Downloads\Jamnik-1-23 (1).jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,6 +40,11 @@ button {
   font-family: 'Princess Sofia';
 }
 #aboutme{
-    margin-top:750px
+    margin-top:10px;
+    height: 1000px;
+    background: url(https://thumbs.dreamstime.com/t/beautiful-sunset-sunrise-over-dark-mountain-panorama-silhouette-65010305.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
