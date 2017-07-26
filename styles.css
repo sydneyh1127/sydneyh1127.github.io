@@ -2,6 +2,8 @@ body{
   height:150%
 }
 
+
+/* stars */
 #home-banner{
   background-image:url(http://wallpapercave.com/wp/VCf1lhA.jpg);
   background-repeat: no-repeat;
@@ -10,13 +12,13 @@ body{
   height: 100vh;
 }
 
-#darksunrise{
+/*#darksunrise{
   background-image:url(https://thumbs.dreamstime.com/t/beautiful-sunset-sunrise-over-dark-mountain-panorama-silhouette-65010305.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
+}*/
 
 
 
@@ -39,12 +41,42 @@ button {
   font-size: 37px;
   font-family: 'Princess Sofia';
 }
-#aboutme{
+
+
+/*dark sunrise*/
+#darksunrise{
     margin-top:10px;
     height: 1000px;
-    background: url(https://thumbs.dreamstime.com/t/beautiful-sunset-sunrise-over-dark-mountain-panorama-silhouette-65010305.jpg);
+    background: url(https://thumbs.dreamstime.com/t/amazing-sunset-sunrise-sun-over-dark-mountain-ground-silhou-panorama-silhouette-70132069.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
 
+#lightsunrise{
+    margin-top:10px;
+    height: 1000px;
+    background: url(http://www.youwall.com/wallpapers/201404/sunny-mountains-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#mediumsunrise{
+  margin-top:10px;
+  height: 1000px;
+  background: url(https://s3.envato.com/files/219702698/Preview%20.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#clouds{
+  margin-top:10px;
+  height: 1000px;
+  background: url(http://il9.picdn.net/shutterstock/videos/4240988/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
