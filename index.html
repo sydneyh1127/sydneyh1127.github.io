@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html>
+
   <head>
 
     <!-- Set the style of the table -->
@@ -15,13 +16,132 @@
 
   </head>
 
+  <head>
+    <div class="sliderWrapper">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  </style>
+  </head>
+
+  <body>
+
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="HOBYCampfire2.png" style="width:50%" align="center">
+    <div class="text">Caption Text</div>
+
+  </div>
+
+  <div class="mySlides fade">
+    <img src="HOBYRainbow2.jpg" style="width:50%" align="center">
+    <div class="text">Caption Two</div>
+
+  </div>
+
+  <div class="mySlides fade">
+    <img src="GWCBalcony2.png" style="width:50%" align="center">
+    <div class="text">Caption Three</div>
+  </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex> slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+  }
+  </script>
+  
+<!--  <div id="home-banner">
+
+
+    <a href = "#about me" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">about me</a>
+    <a href = "#fun facts" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">fun facts</a>
+    <a href = "#my favorite webpages" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my favorite webpages</a>
+    <a href = "#my gwc creation" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my gwc creation</a>
+  </div> -->
+  <!-- <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex> slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+  }
+  </script> -->
+
+  </body>
+
+<!-- hamburger button  -->
+
+  	<!-- <span>Author : <a href="http://glennsmith.me" target="_blank">Glenn Smith</a></span> -->
+    <!-- <button class="hamburger">&#9776;</button>
+    <button class="cross">&#735;</button>
+  </header>
+
+  <div class="menu">
+    <ul>
+      <a href="#"><li>LINK ONE</li></a>
+      <a href="#"><li>LINK TWO</li></a>
+      <a href="#"><li>LINK THREE</li></a>
+      <a href="#"><li>LINK FOUR</li></a>
+      <a href="#"><li>LINK FIVE</li></a>
+    </ul>
+  </div> -->
+
+<!-- hamburger button 2 -->
+
+
+
+
   <body/>
-    <div id="home-banner">
+  <!--  <div id="home-banner">
       <a href = "#about me" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">about me</a>
       <a href = "#fun facts" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">fun facts</a>
       <a href = "#my favorite webpages" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my favorite webpages</a>
       <a href = "#my gwc creation" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my gwc creation</a>
-    <!--  <img class="mySlides" src="HOBYCampfire2.png">
+     <img class="mySlides" src="HOBYCampfire2.png">
       <img class="mySlides" src="HOBYRainbow2.jpg">
       <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button> -->
@@ -35,15 +155,19 @@
       <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
       <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
       <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span> -->
+      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+
+      how to do slideshow websites https://www.w3schools.com/w3css/w3css_slideshow.asp
+       https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_animated
+
+
       <img class="mySlides w3-animate-top"    src="HOBYCampfire2.png">
       <img class="mySlides w3-animate-bottom" src="HOBYRainbow2.jpg">
       <img class="mySlides w3-animate-top"    src="GWCBalcony2.png">
       <img class="mySlides w3-animate-bottom" src="img_04.jpg">
-
+-->
 
       </div>
-
 
 
 
@@ -58,7 +182,7 @@
     <button type="button">my favorite webpages</button>
     <button type="button">my gwc creation</button> -->
 
-    <div id="darksunrise">
+    <div id="BeachSceneRocks2">
       <h1 id = "about me" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">about me</h1>
 <h2 style = "padding: 20px;"> "Hi! My name is Sydney Hunt and I am 16. I live in Salisbury Mills, NY and am currently a junior at Cornwall Central High School." </h1>
 
@@ -69,13 +193,13 @@
 
 
     </div>
-    <div id="mediumsunrise">
+    <div id="BostonShipViewSun4">
       <h1 id = "fun facts" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">fun facts</h1>
     </div>
-    <div id="lightsunrise">
+    <div id="BeachSceneSand3">
       <h1 id = "my favorite webpages" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">my favorite webpages</h1>
     </div>
-    <div id="clouds">
+    <div id="BostonSunsetBridge3">
       <h1 id = "my gwc creation" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">my gwc creation</h1>
     </div>
   </body>
