@@ -12,14 +12,6 @@ body{
   height: 100vh;
 }
  */
-#home-banner{
-  background-image: url(WestPoint.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  opacity: .7;
-}
 
 /*<img src="C:\users\home\pictures\picture.png"/>
 "C:\Users\Admin\Pictures\Boston Ship View Sun.jpg" */
@@ -60,6 +52,49 @@ http://www.youwall.com/wallpapers/201404/sunny-mountains-wallpaper.jpg
 https://s3.envato.com/files/219702698/Preview%20.jpg
 http://il9.picdn.net/shutterstock/videos/4240988/thumb/1.jpg
 dark sunrise*/
+
+/*three bar icon*/
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+#home-banner{
+  background-image: url(WestPoint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: .7;
+}
+
+
 #BeachSceneRocks2{
     margin-top:10px;
     height: 1000px;
@@ -97,7 +132,7 @@ dark sunrise*/
   background-position: center;
 }
 
-
+/*slideshow
 .sliderWrapper {
 
   background-image: url(WestPoint.jpg);
@@ -105,30 +140,30 @@ dark sunrise*/
   background-size: cover;
   background-position: center;
   height: 100vh;
-  opacity: .7;
+  opacity: .7;*/
     /*text-align: center;
     background:url(WestPoint.jpg);
     background-size: cover;
     /*padding:50px 0;
     width:1000px;
-    height:600px;*/*/
-}
+    /*height:600px;*/
+/*}
 
 
 
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;}
-.mySlides {display:none}
+.mySlides {display:none}*/
 
 /* Slideshow container */
-.slideshow-container {
+/*.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
+}*/*/
 
 /* Caption text */
-.text {
+/*.text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -136,7 +171,7 @@ body {font-family: Verdana,sans-serif;}
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+}*/
 
 /* Number text (1/3 etc) */
 /*.numbertext {
@@ -148,7 +183,7 @@ body {font-family: Verdana,sans-serif;}
 }*/
 
 /* The dots/bullets/indicators */
-.dot {
+/*.dot {
   height: 13px;
   width: 13px;
   margin: 0 2px;
@@ -156,30 +191,30 @@ body {font-family: Verdana,sans-serif;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
+}*/
 
 /*.active {
   background-image: url(WestPoint.jpg);
 }*/
 
 /* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+  /*.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  */
 
 
 

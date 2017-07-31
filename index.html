@@ -2,10 +2,9 @@
 
 <!DOCTYPE html>
 <html>
-
   <head>
-
-    <!-- Set the style of the table -->
+    <!-- Set the style of the table
+fonts    -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
@@ -13,12 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-
   </head>
 
+<!-- slideshow
   <head>
     <div class="sliderWrapper">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
 
@@ -31,57 +29,95 @@
 
   <body>
 
-  <div class="slideshow-container">
+    <div class="slideshow-container">
 
-  <div class="mySlides fade">
-    <img src="HOBYCampfire2.png" style="width:50%" align="center">
-    <div class="text">Caption Text</div>
+    <div class="mySlides fade">
+      <img src="HOBYCampfire2.png" style="width:50%" align="center">
+      <div class="text">Caption Text</div>
 
-  </div>
+    </div>
 
-  <div class="mySlides fade">
-    <img src="HOBYRainbow2.jpg" style="width:50%" align="center">
-    <div class="text">Caption Two</div>
+    <div class="mySlides fade">
+      <img src="HOBYRainbow2.jpg" style="width:50%" align="center">
+      <div class="text">Caption Two</div>
 
-  </div>
+    </div>
 
-  <div class="mySlides fade">
-    <img src="GWCBalcony2.png" style="width:50%" align="center">
-    <div class="text">Caption Three</div>
-  </div>
+    <div class="mySlides fade">
+      <img src="GWCBalcony2.png" style="width:50%" align="center">
+      <div class="text">Caption Three</div>
+    </div>
 
-  </div>
-  <br>
+    </div>
+    <br>
 
-  <div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
 
-  <script>
-  var slideIndex = 0;
-  showSlides();
+    <script>
+    var slideIndex = 0;
+    showSlides();
 
-  function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex> slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 4000); // Change image every 4 seconds
-  }
-  </script>
-  
-<!--  <div id="home-banner">
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+    </script>
+  </body>
+-->
+  <!--  <button type="button" onClick="document.getElementById('about me').scrollIntoView();">about me</button>
+    <button type="button">fun facts</button>
+    <button type="button">my favorite webpages</button>
+    <button type="button">my gwc creation</button> -->
+  <body>
+    <div id="home-banner">
+      <h1 =
+    </div>
+    <div id="BeachSceneRocks2">
+      <h1 id = "about me" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">about me</h1>
+      <h2 style = "padding: 20px;"> "Hi! My name is Sydney Hunt and I am 16. I live in Salisbury Mills, NY and am currently a junior at Cornwall Central High School." </h1>
+    </div>
+
+      <!--  <li style = "color: yellow; font-size: 35px; font-family: Poriet One;">Name: Sydney Hunt</li>
+        <li style = "color: yellow; font-size: 35px; font-family: Poriet One;">Hometown: Cornwall, NY</li>
+        <li style = "color: yellow; font-size: 35px; font-family: Poriet One;">Current School: Cornwall Central High School</li>
+      </li> -->
+
+    <div id="BostonShipViewSun4">
+      <h1 id = "fun facts" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">fun facts</h1>
+    </div>
+    <div id="BeachSceneSand3">
+      <h1 id = "my favorite webpages" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">my favorite webpages</h1>
+    </div>
+    <div id="BostonSunsetBridge3">
+      <h1 id = "my gwc creation" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">my gwc creation</h1>
+    </div>
+<!-- three bar icon -->
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </body>
+
+</html>
+
+<!--
 
 
     <a href = "#about me" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">about me</a>
@@ -111,102 +147,61 @@
   }
   </script> -->
 
-  </body>
-
 <!-- hamburger button  -->
 
-  	<!-- <span>Author : <a href="http://glennsmith.me" target="_blank">Glenn Smith</a></span> -->
-    <!-- <button class="hamburger">&#9776;</button>
-    <button class="cross">&#735;</button>
-  </header>
+    	<!-- <span>Author : <a href="http://glennsmith.me" target="_blank">Glenn Smith</a></span> -->
+      <!-- <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
+    </header>
 
-  <div class="menu">
-    <ul>
-      <a href="#"><li>LINK ONE</li></a>
-      <a href="#"><li>LINK TWO</li></a>
-      <a href="#"><li>LINK THREE</li></a>
-      <a href="#"><li>LINK FOUR</li></a>
-      <a href="#"><li>LINK FIVE</li></a>
-    </ul>
-  </div> -->
+    <div class="menu">
+      <ul>
+        <a href="#"><li>LINK ONE</li></a>
+        <a href="#"><li>LINK TWO</li></a>
+        <a href="#"><li>LINK THREE</li></a>
+        <a href="#"><li>LINK FOUR</li></a>
+        <a href="#"><li>LINK FIVE</li></a>
+      </ul>
+    </div> -->
 
-<!-- hamburger button 2 -->
-
-
+  <!-- hamburger button 2 -->
 
 
-  <body/>
-  <!--  <div id="home-banner">
-      <a href = "#about me" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">about me</a>
-      <a href = "#fun facts" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">fun facts</a>
-      <a href = "#my favorite webpages" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my favorite webpages</a>
-      <a href = "#my gwc creation" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my gwc creation</a>
-     <img class="mySlides" src="HOBYCampfire2.png">
-      <img class="mySlides" src="HOBYRainbow2.jpg">
-      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button> -->
-
-      <!--<div class="w3-content w3-display-container">
-      <img class="mySlides" src="HOBYCampfire2.png">
-      <img class="mySlides" src="HOBYRainbow2.jpg">
-      <img class="mySlides" src="GWCBalcony2.png">
-      <div class="w3-center w3-display-bottommiddle" style="width:100%">
-      <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-      <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-
-      how to do slideshow websites https://www.w3schools.com/w3css/w3css_slideshow.asp
-       https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_animated
 
 
-      <img class="mySlides w3-animate-top"    src="HOBYCampfire2.png">
-      <img class="mySlides w3-animate-bottom" src="HOBYRainbow2.jpg">
-      <img class="mySlides w3-animate-top"    src="GWCBalcony2.png">
-      <img class="mySlides w3-animate-bottom" src="img_04.jpg">
+
+
+
+
+
+
+<!--  <div id="home-banner">
+    <a href = "#about me" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">about me</a>
+    <a href = "#fun facts" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">fun facts</a>
+    <a href = "#my favorite webpages" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my favorite webpages</a>
+    <a href = "#my gwc creation" style="color:yellow; font-size:37px; font-family: Princess Sofia; padding: 20px 85px;">my gwc creation</a>
+   <img class="mySlides" src="HOBYCampfire2.png">
+    <img class="mySlides" src="HOBYRainbow2.jpg">
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button> -->
+
+    <!--<div class="w3-content w3-display-container">
+    <img class="mySlides" src="HOBYCampfire2.png">
+    <img class="mySlides" src="HOBYRainbow2.jpg">
+    <img class="mySlides" src="GWCBalcony2.png">
+    <div class="w3-center w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+
+    how to do slideshow websites https://www.w3schools.com/w3css/w3css_slideshow.asp
+     https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_animated
+
+
+    <img class="mySlides w3-animate-top"    src="HOBYCampfire2.png">
+    <img class="mySlides w3-animate-bottom" src="HOBYRainbow2.jpg">
+    <img class="mySlides w3-animate-top"    src="GWCBalcony2.png">
+    <img class="mySlides w3-animate-bottom" src="img_04.jpg">
 -->
-
-      </div>
-
-
-
-    </div>
-
-
-
-    </div>
-
-  <!--  <button type="button" onClick="document.getElementById('about me').scrollIntoView();">about me</button>
-    <button type="button">fun facts</button>
-    <button type="button">my favorite webpages</button>
-    <button type="button">my gwc creation</button> -->
-
-    <div id="BeachSceneRocks2">
-      <h1 id = "about me" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">about me</h1>
-<h2 style = "padding: 20px;"> "Hi! My name is Sydney Hunt and I am 16. I live in Salisbury Mills, NY and am currently a junior at Cornwall Central High School." </h1>
-
-      <!--  <li style = "color: yellow; font-size: 35px; font-family: Poriet One;">Name: Sydney Hunt</li>
-        <li style = "color: yellow; font-size: 35px; font-family: Poriet One;">Hometown: Cornwall, NY</li>
-        <li style = "color: yellow; font-size: 35px; font-family: Poriet One;">Current School: Cornwall Central High School</li>
-      </li> -->
-
-
-    </div>
-    <div id="BostonShipViewSun4">
-      <h1 id = "fun facts" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">fun facts</h1>
-    </div>
-    <div id="BeachSceneSand3">
-      <h1 id = "my favorite webpages" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">my favorite webpages</h1>
-    </div>
-    <div id="BostonSunsetBridge3">
-      <h1 id = "my gwc creation" style="color:yellow; font-size:60px; font-family: Amatic SC; padding: 20px 30px;">my gwc creation</h1>
-    </div>
-  </body>
-</html>
-
-
-
-
-
-<!--
